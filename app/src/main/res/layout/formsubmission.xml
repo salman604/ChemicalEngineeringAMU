@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffafa">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="149dp"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editText4"
+        android:layout_marginTop="16dp"
+        android:background="#00bee8"
+        android:gravity="center"
+        android:text=" Name"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="47dp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="149dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_marginTop="73dp"
+        android:background="#00bee8"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView1"-->
+        <!--android:layout_width="197dp"-->
+        <!--android:layout_height="30dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="134dp"-->
+        <!--android:text="Email"-->
+        <!--android:textSize="20dp"-->
+        <!--android:textColor="#fffafa"-->
+        <!--android:textStyle="bold"-->
+        <!--tools:layout_editor_absoluteX="95dp"-->
+        <!--tools:layout_editor_absoluteY="47dp" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/editText2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="188dp"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textEmailAddress" />-->
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="300dp"
+        android:layout_height="222dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/editText1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="146dp"
+        android:layout_marginTop="20dp"
+        android:background="#00bee8"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:textColor="#000000"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText4"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="85dp"
+        android:text="Submit"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

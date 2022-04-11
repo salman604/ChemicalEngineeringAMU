@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <Button
+            android:id="@+id/queries"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Contact"
+            android:layout_marginTop="14dp"
+
+            android:background="@drawable/button_bg"
+            android:text="Team"
+            android:textAllCaps="false"
+            android:textColor="#fffafa"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/Contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/attendence"
+            android:layout_marginTop="14dp"
+
+            android:background="@drawable/button_bg"
+            android:text="Contact Us"
+            android:textAllCaps="false"
+            android:textColor="#fffafa"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+
+            android:background="@drawable/button_bg"
+            android:text="About Department "
+            android:textAllCaps="false"
+            android:textColor="#fffafa"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/Result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/about"
+            android:layout_marginTop="13dp"
+
+            android:background="@drawable/button_bg"
+            android:text="(R.p.Unit official) "
+            android:textAllCaps="false"
+            android:textColor="#fffafa"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/attendence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Result"
+            android:layout_marginTop="13dp"
+
+            android:background="@drawable/button_bg"
+            android:text="Student attendence"
+            android:textAllCaps="false"
+            android:textColor="#fffafa"
+            android:textSize="20dp" />
+    </RelativeLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:text=" Clubs (Societies) for Chemical and  Petrochemical Engineering"
+                android:textColor="#fffafa"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv1"
+
+                android:padding="5dp"
+
+                android:text="Society Of Petroleum Engineers"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/spe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView2"
+                android:padding="5dp"
+
+                android:background="@drawable/button_bg"
+                android:text="SPE official website"
+                android:textAllCaps="false"
+                android:textColor="#fffafa"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/spe"
+                android:padding="5dp"
+
+                android:text="The American Institute of Chemical Engineers"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/aiche"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView3"
+                android:padding="5dp"
+                android:background="@drawable/button_bg"
+                android:text="AICHE Official Website"
+                android:textAllCaps="false"
+                android:textColor="#fffafa"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:layout_below="@id/aiche"
+                android:text="The Indian Institute of Chemical Engineers"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/iiche"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView4"
+                android:padding="5dp"
+                android:background="@drawable/button_bg"
+                android:text="IICHE Official Website"
+                android:textAllCaps="false"
+                android:textColor="#fffafa"
+                android:textSize="20dp" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

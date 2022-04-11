@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Chemical Engineering AMU</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Chemical Engineering AMU</string>
+    <string name="nav_header_subtitle">Zonicmedia13@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+<string name="textview1">Salman Shafi\n\nContact No:\n9759603096\n\n\nFor any issue regarding Pdf file send a Mail on :\n\n
+    Zonicmedia13@gmail.com</string>
+    <string name="value1">Profession : Student of B.tech at ZHCET(AMU)    \nPost :    Developer        \nMobile No : 9759603096           \n</string>
+    <string name="value2">Profession :   Student of B.tech at ZHCET(AMU)     \nPost :    Content Uploader       \nMobile No : 9854850100    \n</string>
+    <string name="value3">Profession :   Student of B.tech at ZHCET(AMU)     \nPost :    Content Uploader       \nMobile No : 9876543210    \n</string>
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "596803992516",
+    "firebase_url": "https://chemicalengineeringamu.firebaseio.com",
+    "project_id": "chemicalengineeringamu",
+    "storage_bucket": "chemicalengineeringamu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596803992516:android:16b31e2475887f9a",
+        "android_client_info": {
+          "package_name": "com.example.salman.chemicalengineeringamu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596803992516-37e1812dor7fbh7q2oa2qve22tc7crc9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.salman.chemicalengineeringamu",
+            "certificate_hash": "690feb6bc52a13102c7b17e4b2862827cdbe44f7"
+          }
+        },
+        {
+          "client_id": "596803992516-7cbhmgrctvu0g38p16m525vjifdf4vit.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2gq3F1HVu4Iyum-Mg05Ua6ywT9i0q_cQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596803992516-7cbhmgrctvu0g38p16m525vjifdf4vit.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
